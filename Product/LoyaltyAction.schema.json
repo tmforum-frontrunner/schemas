@@ -17,7 +17,7 @@
                     "type": "string",
                     "description": "A reference to the loyalty event type."
                 },
-                "type": {
+                "actionType": {
                     "type": "string",
                     "description": "The type of loyalty action.",
                     "enum": [

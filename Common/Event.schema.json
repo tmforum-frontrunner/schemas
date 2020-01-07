@@ -47,6 +47,26 @@
                         "format": "date-time",
                         "description": "The time the event occured."
                     },
+		   "source": {
+ 			"$ref": "EntityRef.schema.json#EntityRef",
+                         "description": "Source Entity described by EntityRef"
+                   },
+  	           "reportingSystem": {
+ 			"$ref": "EntityRef.schema.json#EntityRef",
+                         "description": "Reporting System described by EntityRef"
+                   },
+		 "relatedParty": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "RelatedParty.schema.json#/definitions/RelatedParty"
+                    }
+                },
+                   "analyticCharacteristic": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "../Common/Characteristic.schema.json#/definitions/Characteristic"
+                    }
+                },
                     "event": {
                         "description": "The event linked to the involved resource object",
                         "$ref": "Any.schema.json#Any"

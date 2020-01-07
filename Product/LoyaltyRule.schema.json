@@ -19,7 +19,7 @@
                 },
                 "isCNF": {
                     "type": "boolean",
-                    "description": "Unit and value of the balance."
+                    "description": "This is a Boolean attribute that, if true, defines the condition clause of this rule to be represented in Conjunctive Normal Form (e.g., an AND of ORs). If the value of this attribute is false, then the condition clause will be represented in Disjunctive Normal Form (e.g., an OR of ANDs)."
                 },
                 "hasSubRules": {
                     "type": "boolean",

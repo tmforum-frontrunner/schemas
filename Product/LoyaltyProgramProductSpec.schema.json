@@ -40,7 +40,7 @@
                       "type": "string",
                       "productNumber": "An identification number assigned to uniquely identify the specification."
                   },
-                  "ValidFor": {
+                  "validFor": {
                       "$ref": "../Common/TimePeriod.schema.json#/definitions/TimePeriod"
                   }
               },

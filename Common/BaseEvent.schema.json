@@ -8,14 +8,8 @@
             "description": "Base event with common attributes.",
             "type": "object",
             "properties": {
-                
-                  "id": {
-                    "type": "string",
-                    "description": "Identifier of the Process flow"
-                },
-				"href": {
-                    "type": "string",
-                    "description": "Reference of the ProcessFlow" 
+                "event": {
+                    "$ref": "Any.schema.json#Any"
                 },
                 "eventId": {
                     "type": "string",

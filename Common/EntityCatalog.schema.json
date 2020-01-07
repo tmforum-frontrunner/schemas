@@ -37,6 +37,21 @@
                     "$ref": "TimePeriod.schema.json#TimePeriod",
                     "description": "The period for which the catalog is valid"
                 },
+                "relatedParty": {
+                    "type": "array",
+                    "description": "The parties who are involved or have an interest in this catalog",
+                    "items":
+                    {
+                        "$ref": "RelatedParty.schema.json#RelatedParty"
+                    }
+                },
+                "category": {
+                    "type": "array",
+                    "description": "The categories used in this catalog",
+                    "items": {
+                        "$ref": "EntityCategoryRef.schema.json#EntityCategoryRef"
+                    }
+                },
                 "version": {
                     "type": "string",
                     "description": "Catalog version"

@@ -43,12 +43,17 @@
                 },
                 "constraint": {
                     "type": "array",
+                    "description": "Constraints relating to this association",
                     "items": {
                         "$ref": "ConstraintRef.schema.json#ConstraintRef"
                     }
                 },
                 "associationRoleSpec": {
-                    "$ref": "AssociationRoleSpec.schema.json#AssociationRoleSpec"
+                    "type": "array",
+                    "description": "Role specifications for this association",
+                    "items": {
+                        "$ref": "AssociationRoleSpecification.schema.json#AssociationRoleSpecification"
+                    }
                 }
             },
             "allOf": [

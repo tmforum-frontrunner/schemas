@@ -15,7 +15,7 @@
                 },
                 "href": {
                     "type": "string",
-                    "description": "A reference to the loyalty member’s loyalty account."
+                    "description": "A reference to the loyalty members loyalty account."
                 },
                 "loyaltyProgramProduct": {
                     "$ref": "LoyaltyProgramProductRef.schema.json#/definitions/LoyaltyProgramProductRef"

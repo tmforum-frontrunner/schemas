@@ -12,6 +12,10 @@
                 "relatedParty"
             ], 
             "properties": {
+		"ratingType": {
+		    "type": "string",
+		    "description": "Indicates whether the account follows a specific payment option such as prepaid or postpaid"
+		}
             },
             "allOf": [
                 {

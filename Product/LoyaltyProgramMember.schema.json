@@ -19,11 +19,11 @@
                 },
                 "name": {
                     "type": "string",
-                    "description": "The loyalty member’s name."
+                    "description": "The loyalty members name."
                 }, 
                 "status": {
                     "type": "string",
-                    "description": "A free-form field in which the member’s status may be captured, e.g. 'active', 'suspended', .etc."
+                    "description": "A free-form field in which the members status may be captured, e.g. [active], [suspended], .etc."
                 },
                 "ValidFor": {
                     "$ref": "../Common/TimePeriod.schema.json#/definitions/TimePeriod",

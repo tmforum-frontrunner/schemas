@@ -37,7 +37,10 @@
                     "description": "The time period that the PartyRole is valid for."
                 },
                 "engagedParty": {
-                    "$ref": "RelatedParty.schema.json#RelatedParty"
+                    "$ref": "PartyRef.schema.json#RelatedPartyRefOrValue"
+                },
+                "roleType": {
+                    "$ref": "RoleTypeRef.schema.json#RoleTypeRef"
                 },
                 "account": {
                     "type": "array",
@@ -79,7 +82,7 @@
                 "relatedParty": {
                     "type": "array",
                     "items": {
-                        "$ref": "RelatedParty.schema.json#RelatedParty"
+                        "$ref": "RelatedParty.schema.json#RelatedPartyRefOrValue"
                     }
                 }
             },

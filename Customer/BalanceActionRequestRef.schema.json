@@ -4,21 +4,16 @@
     "title": "BalanceActionRequestRef",
     "definitions": {
         "BalanceActionRequestRef": {
+            "$id": "#BalanceActionRequestRef",
             "description": "link to the resource that holds balance-related request information",
-            "properties": {
-                "href": {
-                    "type": "string",
-                    "description": "A resource URI pointing to the resource in the OB that stores the request information for the balance-related action"
-                },
-                "id": {
-                    "type": "string",
-                    "description": "Unique identifier for the balance related action request"
-                }
+	                "properties": {
             },
-            "required": [
-                "id",
-                "href"
+            "allOf": [
+                {
+                    "$ref": "../Common/EntityRef.schema.json#EntityRef"
+                }
             ]
+
         }
     }
 }

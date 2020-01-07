@@ -4,29 +4,22 @@
     "title": "RelatedGeographicLocationRefOrValue",
     "definitions": {
         "RelatedGeographicLocationRefOrValue": {
-            "discriminator": "isRef",
             "$id": "#RelatedGeographicLocationRefOrValue",
             "description": "#TODO",
             "type": "object",
             "properties": {
-              "isRef": {
-                "type": "boolean",
-                "default": true
-    
-              },
-              "role":{
-                "type": "string"
-              }
+                "role": {
+                    "type": "string"
+                }
             },
             "required": [
-              "role"
+                "role"
             ],
             "allOf": [
                 {
-                    "$ref": "RelatedPlaceRefOrValue.schema.json#RelatedPlaceRefOrValue"
+                    "$ref": "../Common/RelatedPlaceRefOrValue.schema.json#RelatedPlaceRefOrValue"
                 }
-                
             ]
         }
     }
-  }
+}

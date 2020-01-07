@@ -26,7 +26,7 @@
                 },
                 "role": {
                     "type": "string",
-                    "description": "The association role of this relationship participant as defined in the associationRoleSpec"
+                    "description": "The association role of this relationship participant as defined in the associationRoleSpecification"
                 }
             },
             "allOf": [
